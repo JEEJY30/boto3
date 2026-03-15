@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "s3-boto"
+version = "1.0.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.14"
+boto3 = "^1.42.68"
+dotenv = "^0.9.9"
+python-magic = "^0.4.27"
+
+[poetry.group.dev.dependencies]
